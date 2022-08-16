@@ -1,0 +1,49 @@
+div:first-of-type {
+    color: green;
+}
+
+div:nth-of-type(2) {
+    color: yellow;
+}
+
+div:nth-of-type(3) {
+    color: red;
+    font-size: 20px;
+}
+
+div:nth-of-type(4) {
+    color: darkblue;
+}
+
+div:last-of-type {
+    color: pink;
+}
+
+div:hover {
+    border-style: solid;
+}
+
+div:first-of-type > h3 {
+    font-style: italic;
+    text-decoration: underline
+}
+
+div:nth-of-type(2) > h3 {
+    font-weight: lighter;
+}
+
+div:nth-of-type(3) > h3 {
+    font-style: italic;
+    text-decoration: overline;
+    ;
+}
+
+div:nth-of-type(4) > h3 {
+text-decoration: line-through;
+}
+
+div:nth-of-type(5) > h3 {
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
